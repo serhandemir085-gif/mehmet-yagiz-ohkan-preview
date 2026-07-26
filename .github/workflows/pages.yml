@@ -29,6 +29,7 @@ jobs:
           cp index.html preview/index.html
           cp -R assets/css preview/assets/css
           cp -R assets/js preview/assets/js
+          cp -R assets/images preview/assets/images
       - uses: actions/upload-pages-artifact@v3
         with:
           path: preview
