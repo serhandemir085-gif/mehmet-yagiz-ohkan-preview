@@ -26,6 +26,7 @@ jobs:
       - name: Prepare preview assets
         run: |
           mkdir -p preview/assets
+          cp index.html preview/index.html
           cp -R assets/css preview/assets/css
           cp -R assets/js preview/assets/js
       - uses: actions/upload-pages-artifact@v3
