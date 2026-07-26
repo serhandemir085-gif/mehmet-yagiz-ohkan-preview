@@ -14,7 +14,7 @@ footer{background:var(--ink);color:#fff;padding:55px clamp(24px,5vw,80px);displa
 /* Editorial hero: compact composition with a real portrait and useful context. */
 .hero{min-height:760px;height:min(92svh,880px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(340px,.8fr);gap:5vw;padding:115px clamp(24px,6vw,100px) 65px}
 .hero-copy{max-width:900px}.hero h1{font-size:clamp(54px,7vw,108px);max-width:880px;margin:20px 0 28px}.hero-lead{font-size:clamp(17px,1.5vw,22px)}.hero-actions{margin-top:32px}
-.hero-portrait{height:min(64vh,590px);min-height:480px;position:relative;z-index:2;background-size:cover;background-position:center;box-shadow:0 35px 80px #0008}
+.hero-portrait{display:block;height:min(64vh,590px);min-height:480px;position:relative;z-index:2;background-size:cover;background-position:center;box-shadow:0 35px 80px #0008}
 .hero-portrait:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,#000c)}
 .portrait-label{position:absolute;right:-42px;top:82px;transform:rotate(90deg);font-size:9px;letter-spacing:.2em;color:#aaa}
 .portrait-card{position:absolute;left:-34px;right:24px;bottom:24px;background:#14140fe8;backdrop-filter:blur(12px);padding:18px 56px 18px 20px;border-left:3px solid var(--accent)}
